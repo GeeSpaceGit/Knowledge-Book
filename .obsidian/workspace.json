@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Book/GIT-001 What is Git.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT-001 What is Git"
+              "title": "README"
             }
           }
         ]
@@ -157,7 +157,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Knowledge-Book/GIT-001 What is Git.md"
+                "file": "README.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -211,8 +211,8 @@
   },
   "active": "87af617c399d7903",
   "lastOpenFiles": [
-    "README.md",
     "Knowledge-Book/GIT-001 What is Git.md",
+    "README.md",
     "Knowledge-Book",
     "Welcome.md",
     "GIT",
