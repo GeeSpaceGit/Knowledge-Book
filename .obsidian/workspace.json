@@ -25,14 +25,14 @@
             "id": "fc36a13060addca6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "WEB-001 Infinity Free.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/snippets/Line Break.css",
+                "bFile": ".obsidian/snippets/Line Break.css",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "WEB-001 Infinity Free"
+              "icon": "diff",
+              "title": "Diff: Line Break.css"
             }
           }
         ],
@@ -226,8 +226,14 @@
   },
   "active": "fc36a13060addca6",
   "lastOpenFiles": [
+    "Software Engineering/SE-001 Human-Computer Interface Design.md",
+    "Software Engineering/attachments/Pasted image 20250822155615.png",
+    "Software Engineering/attachments",
+    "Miscellaneous/MISC-001 成语.md",
+    "Web/WEB-001 Infinity Free.md",
+    "Web/attachments/Pasted image 20250822141508.png",
+    "Web/attachments",
     "PROG-001 Google Calendar Component.md",
-    "WEB-001 Infinity Free.md",
     "Web",
     "Programming",
     "Talk/TALK-001 思考与思绪.md",
@@ -236,13 +242,11 @@
     "Knowledge-Book/HELP-000 SOP of KB.md",
     "Knowledge-Book/HELP-001 Obsidian Base Plugin.md",
     "Knowledge-Book/Untitled.md",
-    "Miscellaneous/MISC-001 成语.md",
     "Untitled.base",
     "Knowledge-Book/Untitled.base",
     "Knowledge-Book/Untitled 1.base",
     "README.md",
     "x.md",
-    "Software Engineering/SE-001.md",
     "Software Engineering",
     "Talk/1 TOC.md",
     "Pasted image 20250821222053.png",
@@ -250,8 +254,6 @@
     "Talk/attachments",
     "Source",
     "Talk/TALK-002.md",
-    "Miscellaneous",
-    "Talk",
     "GIT/GIT-001 What is Git.md",
     "Welcome.md"
   ]

@@ -1,0 +1,38 @@
+/* 有序列表 (1. 2. 3.) 每个项目之间加额外空行 */
+.markdown-preview-view ol li {
+  margin-bottom: 1em;
+}
+
+/* 无序列表 (- •) 也加空行 */
+.markdown-preview-view ul li {
+  margin-bottom: 1em;
+}
+
+.cm-s-obsidian .cm-line.HyperMD-list-line {
+  padding-bottom: 0.75em;
+  /* 控制间距 */
+}
+
+.markdown-preview-view img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 编辑模式图片居中 */
+.cm-s-obsidian img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown-preview-view p {
+  text-align: justify;
+  text-justify: inter-word; /* 让词与词之间自动分配空隙 */
+}
+
+
+.cm-s-obsidian .cm-line {
+  text-align: justify;
+  text-justify: inter-word;
+}

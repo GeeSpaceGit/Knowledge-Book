@@ -1,4 +1,7 @@
 {
   "monospaceFontFamily": "",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "Line Break"
+  ]
 }
