@@ -1,0 +1,1 @@
+Install Ollama before running llama 3.2 model 

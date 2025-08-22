@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "63288795f0beecb6",
+        "id": "1f73ca925f165add",
         "type": "tabs",
         "children": [
           {
-            "id": "87af617c399d7903",
+            "id": "673ca17e7563ba70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "PROG-001 Google Calendar Component.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "PROG-001 Google Calendar Component"
+            }
+          },
+          {
+            "id": "fc36a13060addca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WEB-001 Infinity Free.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WEB-001 Infinity Free"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#制作流程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,13 +224,35 @@
       "random-note:Open random note": false
     }
   },
-  "active": "87af617c399d7903",
+  "active": "fc36a13060addca6",
   "lastOpenFiles": [
-    "Knowledge-Book/GIT-001 What is Git.md",
+    "PROG-001 Google Calendar Component.md",
+    "WEB-001 Infinity Free.md",
+    "Web",
+    "Programming",
+    "Talk/TALK-001 思考与思绪.md",
+    "Ollama.md",
+    "Machine Learning.md",
+    "Knowledge-Book/HELP-000 SOP of KB.md",
+    "Knowledge-Book/HELP-001 Obsidian Base Plugin.md",
+    "Knowledge-Book/Untitled.md",
+    "Miscellaneous/MISC-001 成语.md",
+    "Untitled.base",
+    "Knowledge-Book/Untitled.base",
+    "Knowledge-Book/Untitled 1.base",
     "README.md",
-    "Knowledge-Book",
-    "Welcome.md",
-    "GIT",
-    "desktop.ini"
+    "x.md",
+    "Software Engineering/SE-001.md",
+    "Software Engineering",
+    "Talk/1 TOC.md",
+    "Pasted image 20250821222053.png",
+    "Talk/attachments/Pasted image 20250821222204.png",
+    "Talk/attachments",
+    "Source",
+    "Talk/TALK-002.md",
+    "Miscellaneous",
+    "Talk",
+    "GIT/GIT-001 What is Git.md",
+    "Welcome.md"
   ]
 }

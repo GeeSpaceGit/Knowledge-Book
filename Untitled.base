@@ -1,0 +1,11 @@
+formulas:
+  Untitled: if(Status,"Done","Undone")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - formula.Untitled
+    sort:
+      - property: formula.Untitled
+        direction: DESC
