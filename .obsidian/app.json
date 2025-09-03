@@ -1,5 +1,6 @@
 {
   "trashOption": "local",
   "newFileLocation": "current",
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "promptDelete": false
 }
