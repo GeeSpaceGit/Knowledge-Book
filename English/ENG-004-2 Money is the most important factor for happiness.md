@@ -1,0 +1,1 @@
+Some people argue that money is the most important factor for achieving happiness. While it is true that financial security can provide comfort and meet basic needs. I believe that happiness is influenced by multiple factors, including relationships, health and personal fulfilment. Therefore, money alone cannot guarantee a truly happy life.

@@ -1,26 +1,84 @@
 ```dataviewjs
-// 想要排除的文件名（不要写扩展名 .md）
-let exclude = ["ENG-000 Table of Content"];
+// 想要包含的文件名（不要写扩展名 .md）
+let include = ["ENG-001-1 Vocabulary 1"];
 
 let rows = [];
+let headersMap = {};
 let counter = 1;
 
 for (let page of dv.pages('"English"')) {
-    // 如果文件名在排除清单，就跳过
-    if (exclude.includes(page.file.name)) continue;
+    if (!include.includes(page.file.name)) continue;
 
     let content = await dv.io.load(page.file.path);
-    let headers = content.match(/^#+\s.+/gm);
+    let lines = content.split("\n");
 
-    if (headers) {
-        for (let h of headers) {
-            let title = h.replace(/^#+\s*/, "");
-            rows.push([counter, page.file.name, title]);
+    for (let i = 0; i < lines.length; i++) {
+        let line = lines[i];
+
+        if (/^#+\s.+/.test(line)) {
+            let title = line.replace(/^#+\s*/, "");
+
+            // 下一行 = Chinese Meaning
+            let chineseMeaning = (i + 1 < lines.length && lines[i + 1].trim() !== "")
+                ? lines[i + 1].trim()
+                : "—";
+
+            // 再下一行 = Definition
+            let definition = (i + 2 < lines.length && lines[i + 2].trim() !== "")
+                ? lines[i + 2].trim()
+                : "—";
+
+            // 加入总表
+            rows.push([
+                counter,
+                `[[${page.file.name}#${title}|${title}]]`, // Vocabulary
+                chineseMeaning,
+                definition
+            ]);
             counter++;
+
+            // 用来检查冲突
+            if (!headersMap[title]) headersMap[title] = [];
+            headersMap[title].push({ file: page.file.name, chineseMeaning, definition });
         }
     }
 }
 
-// 生成表格
-dv.table(["No.", "File", "Vocabulary"], rows);
+// --- 输出部分 ---
+
+// 📋 总表
+dv.header(2, "📋 All Vocabulary");
+dv.table(["No.", "Vocabulary", "Chinese Meaning", "Definition"], rows);
+
+// ⚠️ 冲突检查
+let conflictRows = [];
+let conflictCounter = 1;
+
+for (let title in headersMap) {
+    let entries = headersMap[title];
+    if (entries.length > 1) {
+        let defs = entries.map(e =>
+            `**${e.file}**<br>Chinese: ${e.chineseMeaning}<br>Definition: ${e.definition}`
+        ).join("<br><br>");
+        conflictRows.push([
+            conflictCounter,
+            title,
+            defs,
+            entries.map(e => `[[${e.file}#${title}]]`).join(", ")
+        ]);
+        conflictCounter++;
+    }
+}
+
+if (conflictRows.length > 0) {
+    dv.header(2, "⚠️ Conflicts");
+    dv.table(["No.", "Vocabulary", "Details", "Files"], conflictRows);
+} else {
+    dv.paragraph("✅ 没有发现重复的Vocabulary");
+}
+
 ```
+
+
+A1 to C2 Vocabulary
+https://englishprofile.org/?menu=evp-online&dict=uk

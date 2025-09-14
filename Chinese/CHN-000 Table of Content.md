@@ -1,12 +1,16 @@
 # 成语
 
 ```dataviewjs
-let exclude = ["CHN-000 Table of Content"];
-let headersMap = {};
+// 想要包含的文件名（不要写扩展名 .md）
+let include = ["CHN-001 成语 1", "CHN-002 Sample"];
 
-// 遍历文件夹
+let rows = [];
+let headersMap = {};
+let counter = 1;
+
+// 遍历文件
 for (let page of dv.pages('"Chinese"')) {
-    if (exclude.includes(page.file.name)) continue;
+    if (!include.includes(page.file.name)) continue;
 
     let content = await dv.io.load(page.file.path);
     let lines = content.split("\n");
@@ -20,45 +24,49 @@ for (let page of dv.pages('"Chinese"')) {
                 ? lines[i + 1].trim()
                 : "—";
 
+            // 记录总表
+            rows.push([
+                counter,
+                `[[${page.file.name}#${title}|${title}]]`,
+                definition,
+            ]);
+            counter++;
+
+            // 记录冲突检查
             if (!headersMap[title]) headersMap[title] = [];
             headersMap[title].push({ file: page.file.name, definition });
         }
     }
 }
 
-// ========================
-// 生成 Conflict 表格
-// ========================
+// --- 输出部分 ---
+
+// 1️⃣ 总表
+dv.header(2, "📋 All Headers");
+dv.table(["No.", "成语", "含义"], rows);
+
+// 2️⃣ 冲突检查
 let conflictRows = [];
-let normalRows   = [];
-let counter1 = 1;
-let counter2 = 1;
+let conflictCounter = 1;
 
 for (let title in headersMap) {
     let entries = headersMap[title];
     if (entries.length > 1) {
-        // Conflict
         let links = entries.map(e => `[[${e.file}#${title}]]`).join(", ");
         let defs  = entries.map(e => `**${e.file}**: ${e.definition}`).join("<br>");
-        conflictRows.push([counter1, title, defs, links]);
-        counter1++;
-    } else {
-        // Normal
-        let entry = entries[0];
-        normalRows.push([counter2, title, entry.definition]);
-        counter2++;
+        conflictRows.push([conflictCounter, title, defs]);
+        conflictCounter++;
     }
 }
 
-// ========================
-// 输出结果
-// ========================
-
-if (normalRows.length > 0) {
-    dv.header(2, "✔ 没有发现相同的成语");
-    dv.table(["No.", "成语", "意思"], normalRows);
+if (conflictRows.length > 0) {
+    dv.table(["No.", "成语", "含义"], conflictRows);
+} else {
+    dv.paragraph("✅ 没有发现重复的成语");
 }
 
 ```
+
+
 
 

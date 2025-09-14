@@ -1,7 +1,6 @@
 ---
 done:
 ---
-
 - To create an effective interface, the designer must rely on information from psychology, sociology, graphic design, human factors and ergonomics, computer science and mathematic.
 - Each of the aforementioned areas contributes to the design of the interface in some specific way - whether it be in leveraging the intricacies of the human information's systems^[visual, audible, haptic] through colour choice, font choice, line width.
 - For example, wording , ordering of information or icon design.

@@ -11,7 +11,7 @@ done: true
 - Human-computer interaction design must account for the user of the software. 
 - While designing the architecture and detailed design of software systems is essential for meeting most quality attributes, design an efficient user interface that is understandable by the end user is paramount to the usability quality of all successful software system. The most elegant, efficient and high-quality architectural and detailed designs can be felled by a poor interface.
 
->[!note] HCI defined by IEEE
+>[!note] Definition by IEEE
 >An interface that enables information to be passed between a human user and hardware or software components of a computer systems.
 
 ## Graphical user interface (GUI)

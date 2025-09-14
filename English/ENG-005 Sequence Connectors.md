@@ -1,0 +1,3 @@
+- Used to link ideas from one sentence to the next and to give paraphs coherence
+- Perform different functions are placed at the beginning of a  sentence.
+- They are used to introduce, order, contrast, sequence ideas, theory, data etc.
