@@ -1,0 +1,110 @@
+```css
+/* =============================
+
+   Obsidian 美化方案
+
+   ============================= */
+
+  
+
+/* --- 列表 (有序 + 无序) 留空行 --- */
+
+.markdown-preview-view ol li,
+
+.markdown-preview-view ul li {
+
+  margin-bottom: 1em;
+
+}
+
+  
+
+.cm-s-obsidian .cm-line.HyperMD-list-line {
+
+  padding-bottom: 0.75em; /* 编辑模式下列表的间距 */
+
+}
+
+  
+
+/* --- 标题留空行 --- */
+
+/* 编辑模式标题 */
+
+.cm-s-obsidian .cm-line.HyperMD-header {
+
+  margin-bottom: 0.75em;
+
+}
+
+  
+
+/* 预览模式标题 */
+
+.markdown-preview-view h1,
+
+.markdown-preview-view h2,
+
+.markdown-preview-view h3,
+
+.markdown-preview-view h4,
+
+.markdown-preview-view h5,
+
+.markdown-preview-view h6 {
+
+  margin-bottom: 0.75em;
+
+}
+
+  
+
+/* --- 图片居中 --- */
+
+.markdown-preview-view img,
+
+.cm-s-obsidian img {
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+  
+
+/* --- 正文两端对齐 --- */
+
+.cm-s-obsidian .cm-line {
+
+  text-align: justify;
+
+  text-justify: inter-word;
+
+}
+
+  
+
+.markdown-preview-view {
+
+  text-align: justify;
+
+  text-justify: inter-word;
+
+}
+
+  
+
+/* 编辑模式全局两端对齐 */
+
+.cm-s-obsidian {
+
+  text-align: justify;
+
+  text-justify: inter-word;
+
+}
+```
+

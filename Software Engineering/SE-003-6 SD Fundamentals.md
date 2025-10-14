@@ -14,7 +14,7 @@
 
 ## Coupling and cohesion
 ### Coupling 
->[!note] Definition from IEEE
+>[!note] Coupling defined by IEEE
 >The manner and degree of interdependence between software modules.
 
 - Can be applied during software architecture, detailed design and construction design to measure the degree of dependency of design units such as an architectural subsystem, a class in a detailed design's class diagram or function in code.

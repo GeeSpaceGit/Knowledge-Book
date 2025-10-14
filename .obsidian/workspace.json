@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "4af0afdf3d3ebc9f",
+        "id": "9465ea017db850ff",
         "type": "tabs",
         "children": [
           {
-            "id": "2ecf5bc603e8a5dd",
+            "id": "c41f7fa374c9650b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/SE-003-4 SD Process.md",
+                "file": "Programming/PROG-005-3 Numpy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SE-003-4 SD Process"
+              "title": "PROG-005-3 Numpy"
+            }
+          },
+          {
+            "id": "29b34a00e9aaf037",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/PROG-005-3 Numpy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PROG-005-3 Numpy"
+            }
+          },
+          {
+            "id": "96f79affadad4779",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/PROG-001 Kaggle Dataset Run in Local PC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PROG-001 Kaggle Dataset Run in Local PC"
+            }
+          },
+          {
+            "id": "b1ffd1815d427df3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/CHN-001 成语 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CHN-001 成语 1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#go",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,40 +263,46 @@
       "bases:Create new base": false
     }
   },
-  "active": "c2bc1774360ad489",
+  "active": "96f79affadad4779",
   "lastOpenFiles": [
-    "Software Engineering/SE-002-4 Quality Evaluation of Construction Design.md",
-    "Software Engineering/SE-002-3 Minimizing Complexity in Construction Design.md",
-    "Software Engineering/SE-001-3 Evaluation of HCI Quality.md",
-    "Software Engineering/SE-001-2 HCI Interface Design Method.md",
-    "Software Engineering/SE-001 Human-Computer Interface (HCI) Design.md",
-    "Software Engineering/SE-003-4 SD Process.md",
-    "Software Engineering/SE-001-1 General HCI Design Principles (Nielsen's Usability Heuristics).md",
-    "Software Engineering/attachments/Pasted image 20250901152432.png",
-    "Software Engineering/SE-003-2 SD Challenges.md",
-    "Software Engineering/attachments/Pasted image 20250914213401.png",
-    "Software Engineering/SE-003-5 Roles of the Software Designer.md",
-    "Software Engineering/attachments/Pasted image 20250914210027.png",
-    "Software Engineering/SE-003-6 SD Fundamentals.md",
-    "Software Engineering/attachments/Pasted image 20250914210940.png",
-    "Software Engineering/attachments/Pasted image 20250914210926.png",
-    "Software Engineering/SE-003-3 Content of SD.md",
-    "Software Engineering/SE-003-1 Engineering Design.md",
-    "Software Engineering/SE-003 Software Engineering Design (SED).md",
-    "Software Engineering/SE-002-2 Software Construction Using Styles.md",
-    "Software Engineering/SE-002 Principles of Construction Design (CD).md",
-    "Software Engineering/SE-001-E1 Google Calendar.md",
+    "Help/Obsidian CSS.md",
     "README.md",
-    "English/ENG-000 Table of Content.md",
-    "English/ENG-001-1  Vocabulary Soph-.md",
-    "English/ENG-006 Interpreting Graphical Data.md",
-    "English/ENG-005-6 Comparison.md",
-    "Software Engineering/SE-000 Table of Content.md",
-    "Programming/PROG-001 Kaggle Dataset Run in Local PC.md",
-    "Powerpoint/PPT-000.md",
+    "Help",
     "Machine Learning.md",
+    "Software Engineering/SE-005-3 DD Process.md",
+    "Software Engineering/SE-005-2 Key Tasks in DD.md",
+    "Programming/PROG-006 Flutter.md",
+    "Programming/PROG-000 Table of Content.md",
+    "Programming/PROG-001 Kaggle Dataset Run in Local PC.md",
+    "Software Engineering/SE-000 Table of Content.md",
+    "Software Engineering/SE-001 Human-Computer Interface (HCI) Design.md",
+    "Programming/PROG-005-2 Algorithms.md",
+    "Programming/PROG-005-3 Numpy.md",
+    "Chinese/CHN-001 成语 1.md",
+    "Programming/PROG-003 Google Calendar Component.md",
+    "Programming/PROG-005 Python.md",
+    "Programming/PROG-004 Ollama.md",
+    "Programming/PROG-005-1 Files and Exceptions.md",
+    "Software Engineering/SE-002-2 Software Constructions Using Styles.md",
+    "Software Engineering/SE-002-3 Minimizing Complexity in Complexity.md",
+    "Software Engineering/SE-002-4 Quality Evaluation of CD.md",
+    "Software Engineering/SE-003-6 SD Fundamentals.md",
+    "Software Engineering/SE-004 Principle of Software Architecture.md",
+    "Software Engineering/SE-004-1 Key Tasks in Architectural Design.md",
+    "Software Engineering/SE-004-2 Problem Solving in Software Architecture.md",
+    "Software Engineering/SE-004-4 Design the Architecture.md",
+    "Software Engineering/SE-004-3 Understand and Evaluate Requirements.md",
+    "Software Engineering/attachments/Pasted image 20250915151146.png",
+    "Software Engineering/attachments/Pasted image 20250915234557.png",
+    "Software Engineering/attachments/Pasted image 20250915232724.png",
+    "Software Engineering/attachments/Pasted image 20250915232715.png",
+    "Software Engineering/attachments/Pasted image 20250915231737.png",
+    "Software Engineering/attachments/Pasted image 20250915231727.png",
+    "Software Engineering/attachments/Pasted image 20250915231246.png",
+    "Software Engineering/attachments/Pasted image 20250915215623.png",
+    "Software Engineering/attachments/Pasted image 20250915215604.png",
+    "Software Engineering/attachments/Pasted image 20250915170656.png",
     "Powerpoint",
-    "Software Engineering/Untitled.md",
     "General Education",
     "Untitled.base",
     "Software Engineering/Untitled.base",
@@ -261,12 +310,6 @@
     "Software Engineering/Untitled 1.base",
     "English/Untitled.base",
     "Chinese/Untitled.base",
-    "Chinese/Untitled 2.base",
-    "Chinese/Untitled 1.base",
-    "Software Engineering/attachments/Pasted image 20250901153920.png",
-    "Software Engineering/attachments/Pasted image 20250901153732.png",
-    "Software Engineering/attachments/Pasted image 20250901152438.png",
-    "Software Engineering/attachments/Pasted image 20250822163400.png",
-    "Software Engineering/attachments/Pasted image 20250822155615.png"
+    "Chinese/Untitled 2.base"
   ]
 }
