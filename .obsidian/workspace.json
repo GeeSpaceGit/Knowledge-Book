@@ -4,67 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "9465ea017db850ff",
+        "id": "23f5901b0ce2b1e1",
         "type": "tabs",
         "children": [
           {
-            "id": "c41f7fa374c9650b",
+            "id": "19916ad94f21b3aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/PROG-005-3 Numpy.md",
+                "file": "Programming/PROG-006-2 Flutter Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROG-005-3 Numpy"
+              "title": "PROG-006-2 Flutter Architecture"
             }
           },
           {
-            "id": "29b34a00e9aaf037",
+            "id": "4a070802095861d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/PROG-005-3 Numpy.md",
+                "file": "Programming/PROG-006-3 Data Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROG-005-3 Numpy"
+              "title": "PROG-006-3 Data Model"
             }
           },
           {
-            "id": "96f79affadad4779",
+            "id": "5c8e1a90769c6149",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/PROG-001 Kaggle Dataset Run in Local PC.md",
+                "file": "Programming/PROG-006-4 ListView.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROG-001 Kaggle Dataset Run in Local PC"
+              "title": "PROG-006-4 ListView"
             }
           },
           {
-            "id": "b1ffd1815d427df3",
+            "id": "91bdda72b9e64de1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/CHN-001 成语 1.md",
+                "file": "Programming/PROG-006-5 Card.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHN-001 成语 1"
+              "title": "PROG-006-5 Card"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,16 +128,26 @@
     "type": "split",
     "children": [
       {
-        "id": "7579df6594bb4a1a",
+        "id": "6af20c3f8ca51fd3",
         "type": "tabs",
         "children": [
           {
-            "id": "b63b5fef8e1a096c",
+            "id": "6d05d8da48b8c1a5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "9b2b5b1cd88f344d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT-001 What is Git.md",
+                "file": "English/ENG-006 Interpreting Graphical Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,25 +157,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GIT-001 What is Git"
+              "title": "Backlinks for ENG-006 Interpreting Graphical Data"
             }
           },
           {
-            "id": "c44e7836bcd5330e",
+            "id": "865903dad7564b3b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GIT-001 What is Git.md",
+                "file": "English/ENG-006 Interpreting Graphical Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GIT-001 What is Git"
+              "title": "Outgoing links from ENG-006 Interpreting Graphical Data"
             }
           },
           {
-            "id": "bebb0946e0a345cc",
+            "id": "c1574fc250cb1106",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -180,34 +190,7 @@
             }
           },
           {
-            "id": "a2f742ce9f09d443",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "English/ENG-003-4 Phrasal Word - Get.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of ENG-003-4 Phrasal Word - Get"
-            }
-          },
-          {
-            "id": "63f7b9c4ec55196c",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "README.md"
-              },
-              "icon": "lucide-file-signature",
-              "title": "Footnotes"
-            }
-          },
-          {
-            "id": "590efa4ae138d795",
+            "id": "302bbdf92f8fe6b6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -221,27 +204,21 @@
             }
           },
           {
-            "id": "c2bc1774360ad489",
+            "id": "766bc1cbb003848d",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "8cd40e97ab00ba4e",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "type": "outline",
+              "state": {
+                "file": "English/ENG-006 Interpreting Graphical Data.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ENG-006 Interpreting Graphical Data"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,45 +240,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "96f79affadad4779",
+  "active": "91bdda72b9e64de1",
   "lastOpenFiles": [
-    "Help/Obsidian CSS.md",
-    "README.md",
-    "Help",
-    "Machine Learning.md",
-    "Software Engineering/SE-005-3 DD Process.md",
-    "Software Engineering/SE-005-2 Key Tasks in DD.md",
+    "Programming/PROG-006-4 ListView.md",
+    "Programming/PROG-006-3 Data Model.md",
+    "Programming/PROG-006-2 Flutter Architecture.md",
+    "Programming/attachments/Pasted image 20251018224829.png",
+    "Programming/attachments/Pasted image 20251018224644.png",
+    "Programming/PROG-006-5 Card.md",
+    "Programming/attachments/Pasted image 20251018224544.png",
+    "Programming/attachments/Pasted image 20251018223407.png",
+    "Programming/attachments/Pasted image 20251018222721.png",
+    "Programming/attachments/Pasted image 20251018221800.png",
+    "Programming/PROG-007-1 ADB.md",
+    "Programming/attachments/Pasted image 20251018221754.png",
+    "Programming/attachments/Pasted image 20251018221455.png",
+    "Programming/PROG-006-1 Flutter SDK.md",
+    "Programming/attachments/Pasted image 20251018204717.png",
+    "Programming/attachments/Pasted image 20251018204707.png",
+    "Software Engineering/SE-001 Human-Computer Interface (HCI) Design.md",
+    "Software Engineering/SE-001-E1 Google Calendar.md",
+    "Software Engineering/SE-003-1 Engineering Design.md",
+    "Software Engineering/SE-004 Principle of Software Architecture.md",
+    "Programming/PROG-006-99 Troubleshoot.md",
+    "Programming/PROG-007 Android.md",
+    "English/ENG-002-9 Tenses 1.md",
+    "English/ENG-003-1 Phrasal Word - Break.md",
     "Programming/PROG-006 Flutter.md",
+    "English/ENG-003-3 Phrasal Word - Come.md",
+    "English/ENG-002-3 Future Tenses.md",
+    "English/ENG-002-1 Present Tenses.md",
+    "English/ENG-002 Tenses.md",
+    "English/ENG-001-1  Vocabulary Soph-.md",
+    "English/ENG-005-1 Logical or Sequential order.md",
+    "English/ENG-005-2 Order of importance.md",
     "Programming/PROG-000 Table of Content.md",
     "Programming/PROG-001 Kaggle Dataset Run in Local PC.md",
-    "Software Engineering/SE-000 Table of Content.md",
-    "Software Engineering/SE-001 Human-Computer Interface (HCI) Design.md",
-    "Programming/PROG-005-2 Algorithms.md",
     "Programming/PROG-005-3 Numpy.md",
-    "Chinese/CHN-001 成语 1.md",
-    "Programming/PROG-003 Google Calendar Component.md",
-    "Programming/PROG-005 Python.md",
-    "Programming/PROG-004 Ollama.md",
-    "Programming/PROG-005-1 Files and Exceptions.md",
-    "Software Engineering/SE-002-2 Software Constructions Using Styles.md",
-    "Software Engineering/SE-002-3 Minimizing Complexity in Complexity.md",
-    "Software Engineering/SE-002-4 Quality Evaluation of CD.md",
-    "Software Engineering/SE-003-6 SD Fundamentals.md",
-    "Software Engineering/SE-004 Principle of Software Architecture.md",
-    "Software Engineering/SE-004-1 Key Tasks in Architectural Design.md",
-    "Software Engineering/SE-004-2 Problem Solving in Software Architecture.md",
-    "Software Engineering/SE-004-4 Design the Architecture.md",
-    "Software Engineering/SE-004-3 Understand and Evaluate Requirements.md",
-    "Software Engineering/attachments/Pasted image 20250915151146.png",
-    "Software Engineering/attachments/Pasted image 20250915234557.png",
-    "Software Engineering/attachments/Pasted image 20250915232724.png",
-    "Software Engineering/attachments/Pasted image 20250915232715.png",
-    "Software Engineering/attachments/Pasted image 20250915231737.png",
-    "Software Engineering/attachments/Pasted image 20250915231727.png",
-    "Software Engineering/attachments/Pasted image 20250915231246.png",
-    "Software Engineering/attachments/Pasted image 20250915215623.png",
-    "Software Engineering/attachments/Pasted image 20250915215604.png",
-    "Software Engineering/attachments/Pasted image 20250915170656.png",
+    "Help",
     "Powerpoint",
     "General Education",
     "Untitled.base",
