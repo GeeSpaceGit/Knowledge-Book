@@ -6,7 +6,7 @@
 - This defines a new Dart ***class*** named ***MyApp*** which ***extends*** or inherits from ***StatelessWidget***.
 - StatelessWidget doesn't change after you build it. 
 
-```dart
+```dart title:'main.dart'
 class MyApp extends StatelessWidget{
 }
 ```
@@ -38,7 +38,7 @@ class RecipesApp extends StatelessWidget{
 | Before                               | After                                |
 | ------------------------------------ | ------------------------------------ |
 | ![[Pasted image 20251018204717.png]] | ![[Pasted image 20251018204707.png]] |
-```dart
+```dart title:'main.dart'
 // 1
 @override
 Widget build(BuildContext context){ 
@@ -75,7 +75,7 @@ Widget build(BuildContext context){
 | 5       | ***theme.copyWith:*** - By copying the theme and replacing the color scheme with a custom one are changing the app's color.<br><br>***fromseed*** constructor - generating shades and tones that ***ThemeData*** uses to style widgets following Material Design specification. |
 | 6       | ***home:*** - This still uses the same ***MyHomePage*** widget as before, but now have updated the title and displayed it on the device.                                                                                                                                        |
 # Clearing the App
-```dart
+```dart title:'main.dart'
 class _MyHomePageState_ extends State<MyHomePage>{
 	@override
 	Widget build(BuildContext context){

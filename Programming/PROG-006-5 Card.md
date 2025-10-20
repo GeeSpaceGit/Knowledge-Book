@@ -41,8 +41,8 @@ Widget buildRecipeCard (Recipe recipe){
 return buildRecipeCard(Recipe.samples[index]);
 ```
 
-![[Pasted image 20251018224544.png]]
 
+# After some modify
 ```dart
 Card (
 
@@ -83,11 +83,15 @@ Card (
 ```
 
 
-| Section | Description                                                                                                         |
-| ------- | ------------------------------------------------------------------------------------------------------------------- |
-| 1       | ***elevation*** - how high off the screen the card is, affecting its shadow.                                        |
-| 2       | ***shape*** - handles the shape of the card. This code defines a rounded rectangle with a ***10.0*** corner radius. |
-| 3       | ***Padding*** - insets its child's contents by the specific ***padding*** value.                                    |
-| 4       | padding child is still same vertical ***Column*** with the image and text                                           |
-| 5       | ***SizedBox*** - blank view with a fixed size.                                                                      |
-| 6       |                                                                                                                     |
+| Section | Description                                                                                                                                     |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | ***elevation*** - how high off the screen the card is, affecting its shadow.                                                                    |
+| 2       | ***shape*** - handles the shape of the card. This code defines a rounded rectangle with a ***10.0*** corner radius.                             |
+| 3       | ***Padding*** - insets its child's contents by the specific ***padding*** value.                                                                |
+| 4       | padding child is still same vertical ***Column*** with the image and text                                                                       |
+| 5       | ***SizedBox*** - blank view with a fixed size.                                                                                                  |
+| 6       | Customize ***Text*** widgets with a ***style*** object. Specified a ***Palatino*** font with a size ***20.0*** and a bold weight of ***w700***. |
+
+| Before Modify                        | After Modify                         |
+| ------------------------------------ | ------------------------------------ |
+| ![[Pasted image 20251018224544.png]] | ![[Pasted image 20251018232122.png]] |

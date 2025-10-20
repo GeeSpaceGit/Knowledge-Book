@@ -18,7 +18,7 @@
 >  Has been vetted and tested and has less chance of breaking.
 
 2. To check have set it up correctly, run the following command in a terminal
-```bash
+```bash title:'powershell'
 flutter help
 ```
 

@@ -3,5 +3,6 @@
   "textFontFamily": "",
   "enabledCssSnippets": [
     "Line Break"
-  ]
+  ],
+  "baseFontSize": 16
 }
