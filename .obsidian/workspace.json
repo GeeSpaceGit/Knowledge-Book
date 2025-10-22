@@ -4,81 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "23f5901b0ce2b1e1",
+        "id": "04776727887fa963",
         "type": "tabs",
         "children": [
           {
-            "id": "19916ad94f21b3aa",
+            "id": "11dbc50546943a01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/PROG-006-8 Android Material Design and iOS's Cupertino.md",
+                "file": "Programming/PROG-006-15 Types of Widgets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROG-006-8 Android Material Design and iOS's Cupertino"
+              "title": "PROG-006-15 Types of Widgets"
             }
           },
           {
-            "id": "03da2e01ee8ccc10",
+            "id": "48491628454aa670",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/PROG-006-9 Navigation.md",
+                "file": "Programming/PROG-006-17 Scrollable Widget.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROG-006-9 Navigation"
+              "title": "PROG-006-17 Scrollable Widget"
             }
           },
           {
-            "id": "22297a761e111633",
+            "id": "5d1a0efabfb0a345",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/PROG-006-11 Card.md",
+                "file": "Programming/PROG-006-18 Future Builder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROG-006-11 Card"
+              "title": "PROG-006-18 Future Builder"
             }
           },
           {
-            "id": "0104b58cb2389637",
+            "id": "dc43fc265af09268",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/PROG-006-10 Scaffold.md",
+                "file": "Programming/PROG-006-16 API folder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROG-006-10 Scaffold"
-            }
-          },
-          {
-            "id": "4a070802095861d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English/ENG-005 Sequence Connectors.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ENG-005 Sequence Connectors"
+              "title": "PROG-006-16 API folder"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,43 +240,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "22297a761e111633",
+  "active": "48491628454aa670",
   "lastOpenFiles": [
-    "Programming/PROG-006-10 Scaffold.md",
-    "Programming/PROG-006-11 Card.md",
-    "Programming/PROG-006-9 Navigation.md",
-    "Programming/attachments/Pasted image 20251020152939.png",
-    "Programming/attachments/Pasted image 20251020152859.png",
-    "Programming/attachments/Pasted image 20251020145253.png",
-    "Programming/attachments/Pasted image 20251020145222.png",
-    "Programming/attachments/Pasted image 20251020143431.png",
-    "Programming/PROG-006-12 Text.md",
-    "Programming/attachments/Pasted image 20251020143330.png",
-    "Programming/attachments/Pasted image 20251020143229.png",
-    "Programming/attachments/Pasted image 20251020142527.png",
-    "Programming/attachments/Pasted image 20251020135308.png",
+    "Programming/attachments/Pasted image 20251022205929.png",
+    "Programming/attachments/Pasted image 20251022204356.png",
+    "Programming/PROG-006-17 Scrollable Widget.md",
+    "Programming/attachments/Pasted image 20251022203932.png",
+    "Programming/attachments/Pasted image 20251022203758.png",
+    "Programming/attachments/Pasted image 20251022202056.png",
+    "Programming/PROG-006-18 Future Builder.md",
+    "Programming/PROG-006-16 API folder.md",
+    "Programming/attachments/Pasted image 20251022182849.png",
+    "Programming/attachments/Pasted image 20251022182700.png",
+    "Programming/attachments/Pasted image 20251022175902.png",
+    "Programming/attachments/Pasted image 20251022175410.png",
+    "Software Engineering/attachments/Pasted image 20250915234557.png",
+    "Software Engineering/attachments/Pasted image 20250915232724.png",
+    "Source/S-006 Reset MySQL password.md",
+    "Programming/PROG-006-15 Types of Widgets.md",
+    "Source/S-005 Find the services in Window.md",
+    "Source/attachments",
+    "Source/S-004 Configuration of Jim-PC.md",
+    "Source/S-003 电费收费.md",
+    "Software Engineering/SE-005-1 Designer's Mental Model.md",
     "Programming/PROG-006-8 Android Material Design and iOS's Cupertino.md",
-    "Programming/attachments/Pasted image 20251020132254.png",
+    "Programming/PROG-006-6 GestureDetector.md",
+    "Programming/PROG-006-5 Card.md",
+    "Programming/PROG-006-4 ListView.md",
+    "Programming/PROG-006-3 Data Model.md",
+    "Programming/PROG-006-2 Flutter Architecture.md",
+    "Programming/PROG-006-10 Scaffold.md",
+    "Programming/PROG-006-9 Navigation.md",
+    "Programming/PROG-006-14 Development Tools.md",
+    "Programming/PROG-006-13 Understanding Widget.md",
+    "Programming/PROG-006-99 Troubleshoot.md",
+    "Programming/PROG-006-11 Card.md",
+    "Programming/PROG-006-12 Text.md",
+    "Programming/PROG-007 Android.md",
     "Software Engineering/SE-004-1 Key Tasks in Architectural Design.md",
     "Software Engineering/SE-004 Principle of Software Architecture.md",
-    "Software Engineering/SE-003 Software Engineering Design (SED).md",
-    "Software Engineering/SE-001-2 HCI Interface Design Method.md",
-    "Software Engineering/SE-001-3 Evaluation of HCI Quality.md",
-    "Software Engineering/SE-001-E1 Google Calendar.md",
-    "Software Engineering/SE-002-1 Behavioural Construction Design (BCD).md",
-    "Software Engineering/SE-002-2 Software Constructions Using Styles.md",
-    "Programming/PROG-006-2 Flutter Architecture.md",
-    "Programming/PROG-006-7 Slider.md",
-    "English/ENG-005 Sequence Connectors.md",
-    "English/ENG-004-3 Artificial Intelligence.md",
-    "Software Engineering/SE-003-6 SD Fundamentals.md",
-    "English/ENG-004-1 Knowing How to Manage Your Money Helps You a Better Life.md",
-    "English/ENG-004-2 Money is the most important factor for happiness.md",
-    "English/ENG-003-14 Phrasal Word - Turn.md",
-    "Programming/PROG-006-4 ListView.md",
-    "Software Engineering/SE-003-5 Roles of the Software Designer.md",
-    "Software Engineering/SE-003-3 Content of SD.md",
-    "Software Engineering/SE-001-1 General HCI Design Principles (Nielsen's Usability Heuristics).md",
     "Help",
     "Powerpoint",
     "General Education",
@@ -299,7 +287,6 @@
     "Software Engineering/Untitled 2.base",
     "Software Engineering/Untitled 1.base",
     "English/Untitled.base",
-    "Chinese/Untitled.base",
-    "Chinese/Untitled 2.base"
+    "Chinese/Untitled.base"
   ]
 }

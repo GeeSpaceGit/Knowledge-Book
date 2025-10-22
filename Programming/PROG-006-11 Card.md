@@ -11,7 +11,7 @@
 - SizedBox
 - Row
 
-# Category Card
+# CategoryCard
 ![[Pasted image 20251020132254.png]]
 
 - ***Card***
@@ -48,7 +48,7 @@ class CategoryCard extends StatelessWidget{
 | ------- | ---------------------------------------------------------------- |
 | 1       | ***FoodCategory*** - which will use later to display data in UI. |
 | 2       | Return an empty ***Container***.                                 |
-# Replace with Category Card
+# Replace with CategoryCard
 1. Import relevant .dart file.
 ```dart title:'home.dart'
 import 'components/category_card.dart';
@@ -143,7 +143,7 @@ Stack(
 3. Hot restart.
 ![[Pasted image 20251020142527.png]]
 
-# Card Footer
+# Square Card Footer
 ```dart title:'category_card.dart'
 ListTile(
 	// 1
@@ -329,4 +329,84 @@ import 'models/ restaurant.dart';
 ```
 
 3. Replace with Restaurant Landscape.
-4. 
+```dart title:'home.dart'
+// 1
+Center(
+	
+	// 2
+	child: ConstrainedBox(
+		constraints BoxConstraints(maxWidth: 400),
+		child: RestaurantLandscapeCard(
+			
+			// 3
+			restaurant: restaurants[0],
+		),
+	),
+),
+```
+
+| Section | Description                                                                                           |
+| ------- | ----------------------------------------------------------------------------------------------------- |
+| 1       | ***Center*** - widget ensures the card widget is centered on the screen.                              |
+| 2       | Applies a maximum width of 400 pixels to the card widget.                                             |
+| 3       | Set ***RestaurantLandscapeCard*** widget as the child - pass the first mock restaurant to be display. |
+4. Hot restart.
+![[Pasted image 20251020155407.png]]
+# Landscape Card Child Widget
+1. Add image and widget.
+```dart title:'restaurant_landscape_card.dart'
+ClipRRect()
+	// 1
+	borderRadius:
+		const BorderRadius.vertical(
+			top: Radius.circular(8.0),
+		),
+	
+	// 2
+	child: AspectRatio(
+		aspectRatio: 2,
+		child: Image.asset(
+			restaurant.imageUrl,
+			fit: BoxFit.cover
+			),
+	),
+)
+```
+
+| Section | Description                                                                                                    |
+| ------- | -------------------------------------------------------------------------------------------------------------- |
+| 1       | ***borderRadius*** - rounds the top corners with an 8.0 unit radius.                                           |
+| 2       | ***AspectRatio*** - displays an image with a 2:1 width-to-height ratio. The image scales to fit its container. |
+
+2. Add ListTile
+```dart
+ListTile(
+	
+	// 1
+	title:Text(
+		restaurant.name, 
+		style: textTheme.titleSmall,
+	),
+	
+	// 2
+	subtitle: Text(
+		restaurant.attributes,
+		maxLines: 1,
+		style: textTheme.bodySmall,
+	),
+	
+	// 3
+	onTap: (){
+		print('Tap on $(Tap on ${restaurant.name}');
+	},
+),
+```
+
+| Section | Description                                                                           |
+| ------- | ------------------------------------------------------------------------------------- |
+| 1       | ***title*** - Shows the restaurant's name with a specific style.                      |
+| 2       | ***subtitle*** - Displays the restaurant's attributes, truncated if more than 1 line. |
+| 3       | ***onTap*** - Prints the restaurant's name to the console when tapped.                |
+3. Hot restart.
+![[Pasted image 20251020160846.png]]
+![[Pasted image 20251020161301.png]]

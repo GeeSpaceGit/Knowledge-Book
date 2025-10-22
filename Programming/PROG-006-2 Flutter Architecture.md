@@ -114,3 +114,25 @@ class _MyHomePageState_ extends State<MyHomePage>{
 2. Inspector View > Tool Windows > Flutter Inspector 
  ![[Pasted image 20251018224829.png]]
  This view shows all the widgets onscreen and how they are composed. As you scroll, you can refresh the tree.
+# StatefulWidget Application
+1. Add the ***const*** declarations.
+```dart title:'main,dart'
+runApp(Yummy())
+```
+
+to
+
+```dart title:'main,dart'
+runApp(const Yummy())
+```
+
+2. Change
+```dart title:'main.dart'
+Yummy({super.key});
+```
+
+to
+
+```dart title:'main.dart'
+const Yummy({super.key});
+```

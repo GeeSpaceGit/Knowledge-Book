@@ -1,4 +1,4 @@
-
+	
 ```dart
 import 'package:flutter/material.dart';
 
@@ -11,7 +11,7 @@ import 'package:flutter/cupertino.dart'
 ![[Pasted image 20251020090218.png]]
 
 - ***ColorSection*** enum enables users to select and customize the app's appearance/
-```dart title:'lib/constants'
+```dart title:'lib/constants.dart'
 import 'package:flutter/material.dart'
 
 // 1
@@ -54,7 +54,7 @@ import 'constants.dart'
 - Establish default theme mode and primary color
 ```dart title:'main.dart'
 ThemeMode themeMode = ThemeMode.light
-ColorSelection colorSelected = ColorSelection.pink;
+	ColorSelection colorSelected = ColorSelection.pink;
 ```
 
 - Theme configurations. Sets the global theme mode. It defines both light and dark themes utilizing the color you previously specified, ensuring a cohesive and adaptive visual apperance across your app..
